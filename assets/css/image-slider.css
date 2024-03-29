@@ -1,0 +1,29 @@
+.container {
+    padding: 4rem;
+    margin-top: 8rem;
+    
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0.9rem;
+}
+
+.slider {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3 rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    width: 100%;
+    overflow: hidden; 
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    width: 100%; 
+}
