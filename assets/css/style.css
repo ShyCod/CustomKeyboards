@@ -1,50 +1,73 @@
 body {
-      background-color: #acaba4
+    background-color: #acaba4;
 }
 header {
+    position: fixed;
+    background-color: #acaba4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
     padding:0%;
+
+}
+.logolink {
+    width: 600px;
+    height: a;
+
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
-    max-width: 95%;
+    max-width: 100%;
     max-height: auto;
-  }
-
-.logolink {
-    display: inline-block;
-    width: 600px;
-    padding: 0%;
-    height: auto;
-
 }
 nav ul li a {
     color: #000000;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
-    padding: 10px;
+    position: fixed;
+    background-color: #acaba4;
+    padding: 0px;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
 }
-
 nav ul li {
     display: inline-block;
     margin-right: 40px;
     margin-left: auto;
     margin-right: auto;
 }
+}
+.content {
+    margin-top: 160px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
 p.title{
-    font-size: 20px;
+    font-size: 32px;
     font-weight: bold;
     text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p.strong{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.body{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 hr.break {
     border-top: 2px transparent;
@@ -54,4 +77,5 @@ hr.break {
 footer {
     text-align: center;
     font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
