@@ -1,18 +1,26 @@
 body {
-    background-color: #acaba4;
+    background-color: #ffff;
 }
 header {
     position: fixed;
-    background-color: #acaba4;
+    background-color: #ffff;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000; 
     padding:0%;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    max-width: 90%;
+    max-height: auto;
+}
 .logolink {
     width: 600px;
-    height: a;
+    height: auto;
 }
 nav ul li a {
     color: #000000;
@@ -21,21 +29,22 @@ nav ul li a {
 }
 nav {
     position: fixed;
-    background-color: #acaba4;
+    background-color: #62cdff6c;
     padding: 0px;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
     top: 80px;
-    left: 0;
+    left: 0px;
     width: 100%;
-    z-index: 1000; 
+    z-index: 1000;
 }
 nav ul li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 0px;
     margin-left: auto;
     margin-right: auto;
+    padding-inline: 50px;
 }
 .content {
     margin-top: 5px;
@@ -66,5 +75,15 @@ hr.break {
 footer {
     text-align: center;
     font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+r.strong{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+r.body{
+    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
