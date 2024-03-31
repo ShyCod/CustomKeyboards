@@ -1,6 +1,8 @@
 .container {
-    padding: 4rem;
+    padding: 2rem;
     margin-top: 8rem;
+    
+
 }
 .slider-wrapper {
     position: relative;
@@ -23,4 +25,10 @@
     scroll-snap-align: start;
     object-fit: cover;
     width: 100%; 
+}
+@media screen and (min-width: 1800px) {
+    /* Adjust the max-width for monitors wider than 1600px */
+    .slider-wrapper{
+        max-width: 85%;
+    }
 }

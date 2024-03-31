@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/youtube-embed.css">
-    <title>Build Guide ⌨️​</title>
-
+    <link rel="stylesheet" href="assets/css/image-slider.css">
+    <title>How to build a keyboard ⌨️​</title>
 </head>
+
 <body>
     <header>
         <a href="homepage.html">
@@ -18,43 +18,122 @@
     <nav>
         <ul>
             <li><a href="homepage.html">Homepage</a></li>
-            <li><a href="parts.html">Parts List</a></li>
-            <li><a href="modding.html">Modding</a></li>
             <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
          </ul>
     </nav>
-    
-    <div>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <img src="assets/images/barebones.png" alt="Header Image" class="center">
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="assets/images/parts/barebones.png" alt="Image 1">
+            </div>
+        </div>
     </div>
 
+    <div class="centerlist">
+        <p><strong>Table of Contents</strong></p>
+
+        <div class="centerlist">
+            <p><a href="#keyboard-parts">Keyboard Parts breakdown</a></p>
+            <p><a href="#keyboard-layouts">Keyboard Layouts</a></p>
+            <p><a href="#keyboard-mounting">Keyboard Mouting Styles</a></p>
+            <p><a href="#keyboard-pcbs">Keyboard PCBs</a></p>
+            <p><a href="#keyboard-plates">Keyboard Plates</a></p>
+            <p><a href="#keyboard-stabs">Keyboard Stabilizers</a></p>
+            <p><a href="#choose-switches">Choosing Switches</a></p>
+            <p><a href="#choose-keycaps">Choosing Keycaps</a></p>
+            <p><a href="#build-board">Building Your Keyboard</a></p>
+        </div>
+
+        <br><br>
+        <hr>
+        <br><br>
     <div class="content">
-        <p class="body">If you’ve ever asked yourself, 
-            “how do I build a custom mechanical keyboard?”, 
-            I have some info for you to get started based on my personal experiences in the hobby. 
-            This article will be where to start in this vast and, sometimes, confusing hobby. 
-            While it’s easy, it’s not as simple as just saying I want a custom board for ‘x’ amount 
-            of dollars.<br><br>
-            All you need to get started is a barebones keyboard, mechanical switches of your choice and some keycaps!<br><br>
-            So let’s figure this out together. This video is great example of the Keychron Q2
-            being unboxed and built:</p>
+        <div>
+            <p>If you’ve ever asked yourself, “how do I build a custom mechanical keyboard?”, I have some info for you to get started based on my personal experiences in the hobby. This article will be where to start in this vast and, sometimes, confusing hobby. While it’s easy, it’s not as simple as just saying I want a custom board for ‘x’ amount of dollars. So let’s figure this out together.And to start figuring out things, let's first get a quick and basic understanding of the parts that go into a keyboard:</p>
+        </div>
+
+        <br>
+        <hr>
+
+        <div class="">
+            <p id="keyboard-parts"><strong>Keyboard Parts</strong></p>
+        </div>
+        <div class="container1">
+            <div>
+                <img class="leftimage" src="https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1500/f_auto/v1/api-images/blog/10-16-22-beginners-guide-keyboards/keyboard-case_ewcdoh"/>
+            </div>
+            <div>
+                <p class="righttext"><strong>Keyboard Case</strong><br>The outer shell of the keyboard. This is self-explanatory and houses the internals of the board. Sometimes these are a single piece, and sometimes multiple. It’s an important decision as this will decide how your keyboard looks and some of the options that go in it.</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div>
+                <img class="leftimage" src="https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1500/f_auto/v1/api-images/blog/10-16-22-beginners-guide-keyboards/pcbsingle_vtv5sb"/>
+            </div>
+            <div>
+                <p class="righttext"><strong>PCB</strong><br>Next up we have the PCB (printed circuit board). Think of this as the brain of the keyboard. This is where you’ll put your switches and stabilizers on. These come in either solder or hot swap models. We’ll dive into that later.</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div>
+                <img class="leftimage" src="https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1500/f_auto/v1/api-images/blog/10-16-22-beginners-guide-keyboards/plate_solru9"/>
+            </div>
+            <div>
+                <p class="righttext"><strong>Plate</strong><br>Then we have your plate. This is important! The plate assists in mounting your switches to the PCB. It allows the housing of the switch to essentially lock into place, which assists it in locking its position, and then the switch can be soldered, or seated for hot-swap, into the PCB.</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div>
+                <img class="leftimage" src="https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1500/f_auto/v1/api-images/blog/10-16-22-beginners-guide-keyboards/stabs_zkozna"/>
+            </div>
+            <div>
+                <p class="righttext"><strong>Stabilizers</strong><br>Stabilizers come up next. Without overcomplicating it, they stabilize the wobble of the larger keys like the shift, enter, and space bar. These are 100% essential!</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div>
+                <img class="leftimage" src="https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1500/f_auto/v1/api-images/blog/10-16-22-beginners-guide-keyboards/hippo-linear-switch_jehz9a_2_-3_woik0s"/>
+            </div>
+            <div>
+                <p class="righttext"><strong>Switches</strong><br>Then you’ll need your choice of switches. There are so many to choose from these days and we will dive into that in the article.</p>
+            </div>
+        </div>
+        <div class="container1">
+            <div>
+                <img class="leftimage" src="https://res.cloudinary.com/kineticlabs/image/upload/q_auto/c_fit,w_1500/f_auto/v1/api-images/blog/10-16-22-beginners-guide-keyboards/polycaps-seal-v2-bg_ua0hkl_2_-2_qifazc"/>
+            </div>
+            <div>
+                <p class="righttext"><strong>Keycaps</strong><br>You can let creativity shine with these! These can be found on several websites and can be broken down into a few things. Profile, keycap sets, and artisan keycaps. If you’ve used gaming keyboards from big brands, you’re most likely used to OEM caps, in which case the Cherry profile is probably the easiest transition.</p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p id="keyboard-layouts"><strong>Keyboard Layouts</strong></p>
+            <p><br>Now that we have clarified what the basics are, we can make our biggest decision in the process of making a custom keyboard. This is picking our layout. This can be a tough decision for a lot of people simply because they are unsure about what size/layout they want. The most common sizes to most people are 60%, TKL, and Full. But there are tons of different sizes like 60%, 65%, 75%, TKL (tenkeyless), and 1800 layouts. So how do we decide?</p>
+            <img style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;" src="assets/images/parts/layouts.gif">
+            <p>There are a few things to consider when picking a size. Deskspace is usually at the top of importance for most. If you have more space on your desk, then any of these work! But, if you don’t, something smaller like a 75% layout may be ideal.<br><br>The next thing you should consider is what you need it for, if it’s for work and you need specific keys, like an F row or arrows, this will play a huge factor in your decision making. If you play video games and don’t use anything but WASD, perhaps a 60% is ideal! This is a personal choice that you will have to take some time to figure out, but those are some suggestions that may help</p>
+        </div>
+
+        <hr>
+
+        <div>
+            <p id="keyboard-mounting"><strong>Keyboard Mounting Styles</strong></p>
+            <p>
+                We know what layout we are aiming for now, and now we can choose a case. When you’re looking into a keyboard case there are a few things you want to take into consideration. First is your mounting style. There are a lot of interesting and fun mounting styles and I will try to summarize this into something very digestible</p>
+        </div>
+
+        <p><strong>More to come!!</strong></p>
+
+
     </div>
 
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/mROs2ln2240?si=bkPZ30SmEANPSNCm" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
 
-    <footer>
-        <hr class="break">
-        <f>
-        This page is for educational purposes only, the owner of this page is not responsible for any damage caused to your property as a result of the advice provided
-        </f>
-        <hr class="break">
+    <footer> 
+        <p>
+            This page is for educational purposes only, the owner of this page is not responsible for any damage caused to your property as a result of the advice provided
+        </p>    
     </footer>
 </body>
+<script></script>
 </html>

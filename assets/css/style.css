@@ -1,107 +1,101 @@
-User
 body {
-    background-color: #ffff;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 header {
     position: fixed;
-    background-color: #ffff;
+    background-color: #ffffff;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000; 
     padding:0%;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 1rem;
-    max-width: 90%;
-    max-height: auto;
+.header {
+    text-align: left;
+    width: 75%;
+    font-size: 25px;
 }
-
 .logolink {
-    width: 600px;
+    width: 37.5rem;
     height: auto;
-}
-nav ul li a {
-    color: #000000;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
     position: fixed;
-    background-color: #d0ebf8;
-    padding: 0px;
-    font-size: 20px;
-    text-decoration: dotted;
+    background-color: #d9e5eb;
     text-align: center;
-    font-weight: bold;
-    top: 80px;
-    left: 0px;
-    width: 100%;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 98%;
+    border-radius: 0.5rem;
     z-index: 1000;
 }
 nav ul li {
     display: inline-block;
-    margin-right: 0px;
     margin-left: auto;
     margin-right: auto;
     padding-inline: 40px;
 }
+nav ul li a {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: underline;
+}
 .content {
-    margin-top: 5px;
-    width: 65%;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
+    width: 75%;
+    font-size: 16px;
 }
-.content ul li a{
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
-    text-decoration:underline;
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-p.title{
-    font-size: 32px;
-    font-weight: bold;
-    text-decoration: underline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.righttext {
+    padding-left: 0px;
 }
-p.strong{
-    font-size: 22px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.leftimage {
+    width: 20rem;
+    height: auto;
 }
-p.body{
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@media screen and (min-width: 1200px) {
+    .content {
+        max-width: 85%;
+    }
+    .leftimage {
+        width:35rem;
+        height: auto;
+    }
+    .righttext {
+        padding-left: 10px;
+    }
 }
-hr.break {
-    border-top: 2px transparent;
-    border-radius: 5px;
-    border-color: #000000;
+.contactForm {
+    text-align: center;
   }
+
+.contactForm input[type=text],
+.contactForm input[type=email],
+.contactForm textarea {
+    width: 35%;
+    padding: 10px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #d9e5eb;
+    border-radius: 4px;
+  }
+.centerlist {
+    text-align: center;
+}
+
 footer {
-    text-align: left;
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #d0ebf8;
+    background-color: #d9e5eb;
+    width: 98%;
+    border-radius: 0.5rem;
+    padding: 0.2rem
 }
-q.title{
-    font-size: 32px;
-    font-weight: bold;
-    text-decoration: underline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block;
-}
-q.strong{
-    font-size: 22px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block;
-}
-q.body{
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block;
-}
+
