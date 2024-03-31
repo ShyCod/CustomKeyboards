@@ -59,6 +59,10 @@ nav ul li a {
     margin-left: auto;
     margin-right: auto;
 }
+.hrformat {
+    display:block;
+    width: 100%;
+}
 @media screen and (min-width: 1200px) {
     .content {
         max-width: 55%;
@@ -70,7 +74,7 @@ nav ul li a {
 }
 .contactForm {
     text-align: center;
-  }
+}
 
 .contactForm input[type=text],
 .contactForm input[type=email],
